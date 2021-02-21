@@ -1,0 +1,888 @@
+<!doctype html>
+<html data-n-head-ssr lang="en" data-n-head="%7B%22lang%22:%7B%22ssr%22:%22en%22%7D%7D">
+<head>
+  <title>scooter</title>
+  <meta data-n-head="ssr" charset="utf-8">
+  <meta data-n-head="ssr" name="viewport" content="width=device-width,initial-scale=1">
+  <meta data-n-head="ssr" data-hid="description" name="description" content="">
+  <base href="/scooter/">
+  <link data-n-head="ssr" rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="preload" href="./scooter/_nuxt/2328db9.js" as="script">
+  <link rel="preload" href="./scooter/_nuxt/19bf3dd.js" as="script">
+  <link rel="preload" href="./scooter/_nuxt/f3b25d3.js" as="script">
+  <link rel="preload" href="./scooter/_nuxt/20a2641.js" as="script">
+  <style
+    data-vue-ssr-id="7e56e4e3:0 56b15182:0 43c676d4:0 2156d3b4:0 07b00046:0 129682a4:0 3bd91c81:0 55358906:0 bbb6bb02:0">.nuxt-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    opacity: 1;
+    transition: width .1s, opacity .4s;
+    background-color: #000;
+    z-index: 999999
+  }
+
+  .nuxt-progress.nuxt-progress-notransition {
+    transition: none
+  }
+
+  .nuxt-progress-failed {
+    background-color: red
+  }
+
+  html {
+    font-family: Roboto, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    word-spacing: 1px;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    background-color: #f2f2f2
+  }
+
+  *, :after, :before {
+    box-sizing: border-box;
+    margin: 0
+  }
+
+  a {
+    text-decoration: none
+  }
+
+  ul {
+    list-style-type: none
+  }
+
+  .header[data-v-68389425] {
+    background-image: url(./scooter/_nuxt/img/main_background.c454e1c.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 0 100px 0;
+    max-width: 1170px;
+    margin: 0 auto 70px;
+    padding-bottom: 60px
+  }
+
+  .title-box[data-v-68389425] {
+    margin-top: 180px;
+    margin-bottom: 60px;
+    padding: 30px 20px;
+    background: hsla(0, 0%, 100%, .2);
+    border-radius: 10px;
+    border: 1px solid #e5e5e5;
+    max-width: 500px;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    flex-direction: column
+  }
+
+  p[data-v-68389425] {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 1em;
+    color: #fff
+  }
+
+  h1[data-v-68389425], p[data-v-68389425] {
+    text-align: center;
+    text-transform: uppercase
+  }
+
+  h1[data-v-68389425] {
+    color: #ffb905;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 36px;
+    line-height: 44px
+  }
+
+  button[data-v-68389425] {
+    margin-top: 60px;
+    margin-bottom: 23px;
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 16px 36px;
+    background: #ffb905;
+    outline: 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s
+  }
+
+  button[data-v-68389425]:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .25)
+  }
+
+  button[data-v-68389425]:active {
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, .25)
+  }
+
+  .navigation[data-v-73b1a9aa] {
+    padding: 11px 0 11px 18px
+  }
+
+  .main__nav[data-v-73b1a9aa], .navigation[data-v-73b1a9aa] {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+  }
+
+  .main__nav[data-v-73b1a9aa] {
+    padding: 0
+  }
+
+  @media (max-width: 1170px) {
+    .main__nav[data-v-73b1a9aa] {
+      display: none
+    }
+  }
+
+  button[data-v-73b1a9aa] {
+    border: none;
+    margin-right: 20px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+    outline: 0;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 18px
+  }
+
+  button span[data-v-73b1a9aa] {
+    color: #ffb905
+  }
+
+  button[data-v-73b1a9aa]:hover {
+    color: #e5e5e5
+  }
+
+  .phone[data-v-73b1a9aa] {
+    color: #ffb905;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    transition: .3s;
+    margin-left: 40px
+  }
+
+  .phone[data-v-73b1a9aa]:hover, .phone[data-v-73b1a9aa]:hover:before {
+    color: #cba845
+  }
+
+  .phone[data-v-73b1a9aa]:before {
+    content: "";
+    left: -30px;
+    top: 4px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIwSURBVHgB1VXdbdtADOZJvsJIXzSCMkHhCWo/tEGemkwQeIJmg2aDthO4nSDuU/PzYG9gZ4JoBAMBAiGKjqFInf7uLjDyFgKy7s4kP/I7kgJ476LgDYLXGum1JfOMdkt1VPzdGwD/QwqRXvHGFDN1DFkAoCsZeTpVX4vtUDcKOE/5oTWfDaM6KhQ5nICBOTuvdBE2BHzm6AacZ/WxrAOZtLajC4jUD94YJN3ntZuB0ovWYTzjx0Y3yKSiiJ4N3uqfeAkJObwAxN/iUS38GVheTXyojvNMIhuT87LJiqg57OmKZPBYTNQp7Oj8XgIyJ+pL+W+QAez4nee71jYHn/AdEBVgMzz4cC5RgmRRxnOXIqw5/qjT5qx7J0JZC1LxbLB2hHK5GC/lT/zkAhi4q9/TTlaJaJlzS5sDIpLKvtFJXQAw6/rkW3uE0kAmnkBAKrqYssC+BRiXS74HhGlTMQiSMuB3Xz/sIw2AmpFzG3GsuaaZAim/xClVWldVw88r4L1RwWUZlxuKPLENgytaP+kNWF4V/IGSApF6t46DzeiZRSPblY0Rg+T6F+U7HAXWYRoC8U5TvKLyVFxNPSPOEEoKAD6zoi3dTjMOQfwAfVqyqt6788XN2t/xjO0zkAvn6LZsFKkV3uhF+DL9HR/MoB/dqJ2UYrGm3yVd9B3kz1sYS4VBp+O7TbnXF63D/dkrao7zvQEaoMskgYOHKZjoBCKaN6r60KiEeoX6ZTT3jZP3Ly+bwSJsFXWRxAAAAABJRU5ErkJggg==);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%
+  }
+
+  .search-field[data-v-73b1a9aa] {
+    position: relative;
+    padding: 6px;
+    width: 250px;
+    background: #e5e5e5;
+    border: .5px solid #d3d3d3;
+    border-radius: 5px;
+    outline: 0;
+    color: #838383;
+    font-size: 14px;
+    font-weight: 500
+  }
+
+  .search-field[data-v-73b1a9aa]:focus {
+    border: .5px solid #000
+  }
+
+  @media (max-width: 490px) {
+    .navigation[data-v-73b1a9aa] {
+      flex-direction: column
+    }
+
+    .phone[data-v-73b1a9aa] {
+      order: 2;
+      margin-top: 10px
+    }
+  }
+
+  .wrapper[data-v-0108ca40] {
+    width: 100%;
+    background-color: #e5e5e5
+  }
+
+  .cart-block[data-v-0108ca40] {
+    background: 0 0;
+    border: none;
+    border-bottom: 2px solid transparent;
+    cursor: pointer
+  }
+
+  .cart-block[data-v-0108ca40], .content[data-v-0108ca40] {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+  }
+
+  .content[data-v-0108ca40] {
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: 0 auto
+  }
+
+  .logo[data-v-0108ca40] {
+    max-width: 165px;
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-bottom: -7px
+  }
+
+  h2[data-v-0108ca40] {
+    line-height: 16px
+  }
+
+  .button[data-v-0108ca40], h2[data-v-0108ca40] {
+    font-size: 18px;
+    font-weight: 500
+  }
+
+  .button[data-v-0108ca40] {
+    background-color: transparent;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: .3s;
+    outline: 0
+  }
+
+  @media (max-width: 970px) {
+    .button[data-v-0108ca40], h2[data-v-0108ca40] {
+      display: none
+    }
+  }
+
+  button[data-v-0108ca40]:hover {
+    color: #ffb905;
+    border-bottom: 2px solid #ffb905
+  }
+
+  .cost[data-v-0108ca40] {
+    margin-right: 10px;
+    margin-left: 10px
+  }
+
+  .wrapper[data-v-0831554c] {
+    border: 1px solid #d3d3d3;
+    border-bottom: transparent;
+    border-radius: 50px 50px 0 0
+  }
+
+  .title[data-v-0831554c] {
+    display: block;
+    margin: 12px auto;
+    padding-left: 20px;
+    max-width: 1170px;
+    font-weight: 600;
+    font-size: 30px
+  }
+
+  .slider__item img[data-v-0831554c] {
+    -o-object-fit: cover;
+    object-fit: cover
+  }
+
+  .cards[data-v-0831554c] {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: 40px auto 120px
+  }
+
+  @media (max-width: 800px) {
+    .cards[data-v-0831554c] {
+      flex-direction: column;
+      align-items: center
+    }
+  }
+
+  .card[data-v-0831554c] {
+    position: relative;
+    width: 570px;
+    height: 100%;
+    border: none;
+    border-radius: 75px 0 0 0;
+    overflow: hidden;
+    background: 0 0
+  }
+
+  .card-right[data-v-0831554c] {
+    border-radius: 0 0 75px 0
+  }
+
+  .card-image[data-v-0831554c] {
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+    border: none
+  }
+
+  .card-content[data-v-0831554c] {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    width: 330px;
+    padding: 10px 60px 10px 10px;
+    background: hsla(0, 0%, 100%, .5);
+    border-radius: 10px;
+    border: 3px solid #fff
+  }
+
+  h3[data-v-0831554c] {
+    font-weight: 600;
+    font-size: 24px
+  }
+
+  p[data-v-0831554c] {
+    position: relative;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer
+  }
+
+  p[data-v-0831554c]:after {
+    position: absolute;
+    top: 5px;
+    right: -30px;
+    content: "";
+    background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzQiIGhlaWdodD0iMjEiIHZpZXdCb3g9IjAgMCAzNCAyMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjBfZCkiPgo8cGF0aCBkPSJNMTcuNDU2MSA0Ljg3NDM5SDQuOTI3NzZWOC4xMjA3NEgxNy40NTYxVjEzTDMwIDYuNDk5MTlMMTcuNDU2MSAwVjQuODc0MzlaIiBmaWxsPSIjRkZCOTA1Ii8+CjwvZz4KPGRlZnM+CjxmaWx0ZXIgaWQ9ImZpbHRlcjBfZCIgeD0iMC45Mjc3NjUiIHk9IjAiIHdpZHRoPSIzMy4wNzIyIiBoZWlnaHQ9IjIxIiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiI+CjxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+CjxmZUNvbG9yTWF0cml4IGluPSJTb3VyY2VBbHBoYSIgdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDEyNyAwIi8+CjxmZU9mZnNldCBkeT0iNCIvPgo8ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIyIi8+CjxmZUNvbG9yTWF0cml4IHR5cGU9Im1hdHJpeCIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwLjI1IDAiLz4KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbjI9IkJhY2tncm91bmRJbWFnZUZpeCIgcmVzdWx0PSJlZmZlY3QxX2Ryb3BTaGFkb3ciLz4KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJlZmZlY3QxX2Ryb3BTaGFkb3ciIHJlc3VsdD0ic2hhcGUiLz4KPC9maWx0ZXI+CjwvZGVmcz4KPC9zdmc+Cg==);
+    width: 30px;
+    height: 13px;
+    transition: .4s
+  }
+
+  p[data-v-0831554c]:hover:after {
+    transform: translateX(10px)
+  }
+
+  .slider[data-v-6ed9951a] {
+    position: relative;
+    max-width: 1170px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    overflow: hidden;
+    padding: 20px 30px
+  }
+
+  .slider-title[data-v-6ed9951a] {
+    display: block;
+    margin-top: 20px
+  }
+
+  .slider-title[data-v-6ed9951a], .slider__card[data-v-6ed9951a] {
+    background: #fff;
+    transition: .3s
+  }
+
+  .slider__card[data-v-6ed9951a] {
+    display: flex;
+    width: 270px;
+    flex-shrink: 0;
+    outline: 0;
+    border-radius: 20px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, .25);
+    cursor: pointer
+  }
+
+  .slider__card[data-v-6ed9951a]:hover {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .25)
+  }
+
+  .slider__card:hover .slider-title[data-v-6ed9951a] {
+    color: #ffb905
+  }
+
+  .card-image[data-v-6ed9951a] {
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    padding-bottom: 10px
+  }
+
+  .button-prev[data-v-6ed9951a] {
+    right: 20px
+  }
+
+  .button-next[data-v-6ed9951a], .button-prev[data-v-6ed9951a] {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    transition: .3s;
+    opacity: .7
+  }
+
+  .button-next[data-v-6ed9951a] {
+    left: 0;
+    transform: rotate(180deg)
+  }
+
+  .button-next[data-v-6ed9951a]:hover, .button-prev[data-v-6ed9951a]:hover {
+    opacity: 1
+  }
+
+  .content[data-v-474cf1e4] {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1170px;
+    padding-top: 50px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    justify-content: center
+  }
+
+  .wrapper[data-v-474cf1e4] {
+    border: 1px solid #d3d3d3;
+    border-radius: 50px 50px 0 0;
+    margin-top: -40px
+  }
+
+  .title[data-v-474cf1e4] {
+    display: block;
+    margin: 12px auto;
+    padding-left: 20px;
+    max-width: 1170px;
+    font-weight: 600;
+    font-size: 30px
+  }
+
+  img[data-v-474cf1e4] {
+    width: 300px;
+    height: 300px
+  }
+
+  .card[data-v-e6aacc74] {
+    width: 270px;
+    padding: 14px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, .25);
+    cursor: pointer;
+    transition: .4s;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    overflow: hidden
+  }
+
+  img[data-v-e6aacc74] {
+    width: 100%
+  }
+
+  .card[data-v-e6aacc74]:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .25)
+  }
+
+  .card-title[data-v-e6aacc74] {
+    display: block;
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 30px
+  }
+
+  .price-block[data-v-e6aacc74] {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center
+  }
+
+  button[data-v-e6aacc74] {
+    width: 111px;
+    height: 30px;
+    padding: 5px 31px 5px 15px;
+    font-size: 14px;
+    background: #ffb905;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .25);
+    border-radius: 5px;
+    white-space: nowrap;
+    position: relative;
+    border: none;
+    outline: 0;
+    cursor: pointer
+  }
+
+  button[data-v-e6aacc74]:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .25)
+  }
+
+  button[data-v-e6aacc74]:after {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    content: "";
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAATCAYAAAB7u5a2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADUSURBVHgB1ZPBEYIwEEU/2gB2EDuwhHSgHUgH2oId2IElWAJ2AkdvePWky7DROCRkk3DxzbyZEH6GJdkA/0phjZU1bjEzNfliG7JEJktrvCLv5IPckE/yhpnpK+7YrOoLz/yZPGCovEU8p6l1Ct/9T3GPAOaAj5ChENEM2gpLqDh/EeY/1W8F2YazCkI0L6gDuUqYG2Gq14LMz0EWCLMjrxhaq/VkNL9bIwGzn1NKu8qJ8syXyLzJpvLa8cEOnouzQByl49nMJe13j8LQbq7f1/xuxBtI70ahsOXM5gAAAABJRU5ErkJggg==);
+    width: 23px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: cover
+  }
+
+  button[data-v-e6aacc74]:active {
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, .25)
+  }</style>
+</head>
+<body>
+<div data-server-rendered="true" id="__nuxt"><!---->
+  <div id="__layout">
+    <div>
+      <div data-v-2e745ac9>
+        <div data-v-68389425 data-v-2e745ac9>
+          <section class="header" data-v-68389425>
+            <div data-v-73b1a9aa data-v-68389425>
+              <nav class="navigation" data-v-73b1a9aa>
+                <ul class="main__nav" data-v-73b1a9aa>
+                  <li data-v-73b1a9aa>
+                    <button data-v-73b1a9aa>О нас</button>
+                  </li>
+                  <li data-v-73b1a9aa>
+                    <button data-v-73b1a9aa>Гарантии</button>
+                  </li>
+                  <li data-v-73b1a9aa>
+                    <button data-v-73b1a9aa>Доставка <span data-v-73b1a9aa>&</span> Оплата</button>
+                  </li>
+                  <li data-v-73b1a9aa>
+                    <button data-v-73b1a9aa>Акции</button>
+                  </li>
+                  <li data-v-73b1a9aa>
+                    <button data-v-73b1a9aa>Кредит</button>
+                  </li>
+                  <li data-v-73b1a9aa>
+                    <button data-v-73b1a9aa>Опции</button>
+                  </li>
+                </ul>
+                <a href="tel:+7(921)3490499" class="phone" data-v-73b1a9aa>+7(921)349-04-99</a> <input
+                placeholder="поиск..." class="search-field" data-v-73b1a9aa></nav>
+            </div>
+            <div class="wrapper" data-v-0108ca40 data-v-68389425>
+              <div class="content" data-v-0108ca40><img src="./scooter/_nuxt/img/logo.2a2b51a.png" alt="логотип"
+                                                        class="logo" data-v-0108ca40>
+                <h2 data-v-0108ca40>каталог:</h2>
+                <button class="button" data-v-0108ca40>Электросамокаты</button>
+                <button class="button" data-v-0108ca40>Гироскутеры</button>
+                <button class="button" data-v-0108ca40>Электровелосипеды</button>
+                <button class="button" data-v-0108ca40>Электроборды</button>
+                <p class="cost" data-v-0108ca40>Ваша корзина пока пуста</p></div>
+            </div>
+            <div class="title-box" data-v-68389425><p data-v-68389425>зарядил</p>
+              <h1 data-v-68389425>электро-транспорт</h1>
+              <p data-v-68389425>поехал</p>
+              <button data-v-68389425>смотреть каталог</button>
+            </div>
+          </section>
+        </div>
+        <div class="wrapper" data-v-0831554c data-v-2e745ac9><h2 class="title" data-v-0831554c>Купить
+          электро-транспорт</h2>
+          <hr data-v-0831554c>
+          <div data-v-6ed9951a data-v-0831554c>
+            <section class="slider" data-v-6ed9951a>
+              <div class="slider__card" style="transform:translateX(0)" data-v-6ed9951a><img
+                src="./scooter/_nuxt/img/scooter.eeac732.jpg" alt="картинка скутера" class="card-image" data-v-6ed9951a>
+                <h3 class="slider-title" data-v-6ed9951a>Электросамокаты</h3></div>
+              <div class="slider__card" style="transform:translateX(0)" data-v-6ed9951a><img
+                src="./scooter/_nuxt/img/jiroscooter.0851f84.jpg" alt="картинка гироскутера" class="card-image"
+                data-v-6ed9951a>
+                <h3 class="slider-title" data-v-6ed9951a>Гироскутеры</h3></div>
+              <div class="slider__card" style="transform:translateX(0)" data-v-6ed9951a><img
+                src="./scooter/_nuxt/img/electrocicle.d8f706a.jpg" alt="картинка велосипеда" class="card-image"
+                data-v-6ed9951a>
+                <h3 class="slider-title" data-v-6ed9951a>Электровелосипеды</h3></div>
+              <div class="slider__card" style="transform:translateX(0)" data-v-6ed9951a><img
+                src="./scooter/_nuxt/img/monowheel.c6c61ee.jpg" alt="картинка моноколеса" class="card-image"
+                data-v-6ed9951a>
+                <h3 class="slider-title" data-v-6ed9951a>Моноколеса</h3></div>
+              <div class="slider__card" style="transform:translateX(0)" data-v-6ed9951a><img
+                src="./scooter/_nuxt/img/board.98f957a.jpg" alt="картинка борда" class="card-image" data-v-6ed9951a>
+                <h3 class="slider-title" data-v-6ed9951a>Электроборд</h3></div>
+              <div class="button-prev" data-v-6ed9951a>
+                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"
+                     data-v-6ed9951a>
+                  <path
+                    d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm-3 5.753l6.44 5.247-6.44 5.263.678.737 7.322-6-7.335-6-.665.753z"
+                    data-v-6ed9951a></path>
+                </svg>
+              </div>
+              <div class="button-next" data-v-6ed9951a>
+                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"
+                     data-v-6ed9951a>
+                  <path
+                    d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm-3 5.753l6.44 5.247-6.44 5.263.678.737 7.322-6-7.335-6-.665.753z"
+                    data-v-6ed9951a></path>
+                </svg>
+              </div>
+            </section>
+          </div>
+          <div class="cards" data-v-0831554c>
+            <div class="card" data-v-0831554c><img src="./scooter/_nuxt/img/slider-leftcard.c9ae1a9.jpg"
+                                                   alt="левая карточка" class="card-image" data-v-0831554c>
+              <div class="card-content" data-v-0831554c><h3 data-v-0831554c>Легко сложить и взять с собой</h3>
+                <p data-v-0831554c>Узнать как и сколько в граммах</p></div>
+            </div>
+            <div class="card card-right" data-v-0831554c><img src="./scooter/_nuxt/img/slider-rightcard.5634123.jpg"
+                                                              alt="правая карточка" class="card-image" data-v-0831554c>
+              <div class="card-content" data-v-0831554c><h3 data-v-0831554c>Сломался?<br data-v-0831554c> Починим</h3>
+                <p data-v-0831554c>Узнать адрес ближайшей мастерской</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper" data-v-474cf1e4 data-v-2e745ac9><h2 class="title" data-v-474cf1e4>Категории товаров</h2>
+          <hr data-v-474cf1e4>
+          <div class="content" data-v-474cf1e4>
+            <div class="card" data-v-e6aacc74 data-v-474cf1e4><img src="./scooter/_nuxt/img/jirogreen.529567d.jpg"
+                                                                   alt="карточка каталога" data-v-e6aacc74>
+              <p class="card-title" data-v-e6aacc74>Гироскутер 6.5, Зеленый</p>
+              <div class="price-block" data-v-e6aacc74><p class="card-title" data-v-e6aacc74>10990 рублей</p>
+                <button data-v-e6aacc74>в корзину</button>
+              </div>
+            </div>
+            <div class="card" data-v-e6aacc74 data-v-474cf1e4><img src="./scooter/_nuxt/img/defence.8eb097d.jpg"
+                                                                   alt="карточка каталога" data-v-e6aacc74>
+              <p class="card-title" data-v-e6aacc74>Комплект защиты Xiaomi Ninebot</p>
+              <div class="price-block" data-v-e6aacc74><p class="card-title" data-v-e6aacc74>1690 рублей</p>
+                <button data-v-e6aacc74>в корзину</button>
+              </div>
+            </div>
+            <div class="card" data-v-e6aacc74 data-v-474cf1e4><img src="./scooter/_nuxt/img/yellowhelm.e13f054.jpg"
+                                                                   alt="карточка каталога" data-v-e6aacc74>
+              <p class="card-title" data-v-e6aacc74>Велосипедный шлем Cannondale BURGERMAN</p>
+              <div class="price-block" data-v-e6aacc74><p class="card-title" data-v-e6aacc74>1990 рублей</p>
+                <button data-v-e6aacc74>в корзину</button>
+              </div>
+            </div>
+            <div class="card" data-v-e6aacc74 data-v-474cf1e4><img src="./scooter/_nuxt/img/roller.68d5dd6.jpg"
+                                                                   alt="карточка каталога" data-v-e6aacc74>
+              <p class="card-title" data-v-e6aacc74>Электроролики Xiaomi Ninebot Segway Drift W1 </p>
+              <div class="price-block" data-v-e6aacc74><p class="card-title" data-v-e6aacc74>12990 рублей</p>
+                <button data-v-e6aacc74>в корзину</button>
+              </div>
+            </div>
+            <div class="card" data-v-e6aacc74 data-v-474cf1e4><img src="./scooter/_nuxt/img/board2.3264acd.jpg"
+                                                                   alt="карточка каталога" data-v-e6aacc74>
+              <p class="card-title" data-v-e6aacc74>Электрический скейтборд Xiaomi ACTON X1 (NXT-33001) </p>
+              <div class="price-block" data-v-e6aacc74><p class="card-title" data-v-e6aacc74>15990 рублей</p>
+                <button data-v-e6aacc74>в корзину</button>
+              </div>
+            </div>
+            <div class="card" data-v-e6aacc74 data-v-474cf1e4><img src="./scooter/_nuxt/img/jiro3.adf0597.jpg"
+                                                                   alt="карточка каталога" data-v-e6aacc74>
+              <p class="card-title" data-v-e6aacc74>Гироскутер Segway Xiaomi Ninebot Mini Lite</p>
+              <div class="price-block" data-v-e6aacc74><p class="card-title" data-v-e6aacc74>22990 рублей</p>
+                <button data-v-e6aacc74>в корзину</button>
+              </div>
+            </div>
+            <div class="card" data-v-e6aacc74 data-v-474cf1e4><img src="./scooter/_nuxt/img/bag.f0a3b65.jpg"
+                                                                   alt="карточка каталога" data-v-e6aacc74>
+              <p class="card-title" data-v-e6aacc74>Сумка для переноски гироскутера</p>
+              <div class="price-block" data-v-e6aacc74><p class="card-title" data-v-e6aacc74>1990 рублей</p>
+                <button data-v-e6aacc74>в корзину</button>
+              </div>
+            </div>
+            <div class="card" data-v-e6aacc74 data-v-474cf1e4><img src="./scooter/_nuxt/img/electrobike2.812668e.jpg"
+                                                                   alt="карточка каталога" data-v-e6aacc74>
+              <p class="card-title" data-v-e6aacc74>Электровелосипед Xiaomi HIMO C</p>
+              <div class="price-block" data-v-e6aacc74><p class="card-title" data-v-e6aacc74>34990 рублей</p>
+                <button data-v-e6aacc74>в корзину</button>
+              </div>
+            </div>
+            <div class="card" data-v-e6aacc74 data-v-474cf1e4><img src="./scooter/_nuxt/img/monowheel2.fdaf3d9.jpg"
+                                                                   alt="карточка каталога" data-v-e6aacc74>
+              <p class="card-title" data-v-e6aacc74>Моноколесо Airwheel Q1 170WH</p>
+              <div class="price-block" data-v-e6aacc74><p class="card-title" data-v-e6aacc74>26990 рублей</p>
+                <button data-v-e6aacc74>в корзину</button>
+              </div>
+            </div>
+            <div class="card" data-v-e6aacc74 data-v-474cf1e4><img src="./scooter/_nuxt/img/scooter.eeac732.jpg"
+                                                                   alt="карточка каталога" data-v-e6aacc74>
+              <p class="card-title" data-v-e6aacc74>Электросаморкат</p>
+              <div class="price-block" data-v-e6aacc74><p class="card-title" data-v-e6aacc74>12990 рублей</p>
+                <button data-v-e6aacc74>в корзину</button>
+              </div>
+            </div>
+            <div class="card" data-v-e6aacc74 data-v-474cf1e4><img src="./scooter/_nuxt/img/electrocicle.d8f706a.jpg"
+                                                                   alt="карточка каталога" data-v-e6aacc74>
+              <p class="card-title" data-v-e6aacc74>Электровелосипед</p>
+              <div class="price-block" data-v-e6aacc74><p class="card-title" data-v-e6aacc74>16990 рублей</p>
+                <button data-v-e6aacc74>в корзину</button>
+              </div>
+            </div>
+            <div class="card" data-v-e6aacc74 data-v-474cf1e4><img src="./scooter/_nuxt/img/jiroscooter.0851f84.jpg"
+                                                                   alt="карточка каталога" data-v-e6aacc74>
+              <p class="card-title" data-v-e6aacc74>Гироскутер</p>
+              <div class="price-block" data-v-e6aacc74><p class="card-title" data-v-e6aacc74>16990 рублей</p>
+                <button data-v-e6aacc74>в корзину</button>
+              </div>
+            </div>
+            <div class="card" data-v-e6aacc74 data-v-474cf1e4><img src="./scooter/_nuxt/img/monowheel.c6c61ee.jpg"
+                                                                   alt="карточка каталога" data-v-e6aacc74>
+              <p class="card-title" data-v-e6aacc74>Моноколесо</p>
+              <div class="price-block" data-v-e6aacc74><p class="card-title" data-v-e6aacc74>6990 рублей</p>
+                <button data-v-e6aacc74>в корзину</button>
+              </div>
+            </div>
+            <div class="card" data-v-e6aacc74 data-v-474cf1e4><img src="./scooter/_nuxt/img/board.98f957a.jpg"
+                                                                   alt="карточка каталога" data-v-e6aacc74>
+              <p class="card-title" data-v-e6aacc74>Электроборд</p>
+              <div class="price-block" data-v-e6aacc74><p class="card-title" data-v-e6aacc74>86990 рублей</p>
+                <button data-v-e6aacc74>в корзину</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>window.__NUXT__ = function(e, i, t, a, n, o) {
+  return {
+    layout: 'default',
+    data: [{}],
+    fetch: {},
+    error: t,
+    state: {
+      store: {
+        items: [{
+          name: 'Гироскутер 6.5, Зеленый',
+          price: 10990,
+          image: 'jirogreen.jpg',
+          type: e,
+          id: 1,
+          quantity: 1
+        }, {
+          name: 'Комплект защиты Xiaomi Ninebot',
+          price: 1690,
+          image: 'defence.jpg',
+          type: i,
+          id: 2,
+          quantity: 1
+        }, {
+          name: 'Велосипедный шлем Cannondale BURGERMAN',
+          price: 1990,
+          image: 'yellowhelm.jpg',
+          type: i,
+          id: 3,
+          quantity: 1
+        }, {
+          name: 'Электроролики Xiaomi Ninebot Segway Drift W1 ',
+          price: 12990,
+          image: 'roller.jpg',
+          type: e,
+          id: 4,
+          quantity: 1
+        }, {
+          name: 'Электрический скейтборд Xiaomi ACTON X1 (NXT-33001) ',
+          price: 15990,
+          image: 'board2.jpg',
+          type: a,
+          id: 5,
+          quantity: 1
+        }, {
+          name: 'Гироскутер Segway Xiaomi Ninebot Mini Lite',
+          price: 22990,
+          image: 'jiro3.jpg',
+          type: e,
+          id: 6,
+          quantity: 1
+        }, {
+          name: 'Сумка для переноски гироскутера',
+          price: 1990,
+          image: 'bag.jpg',
+          type: i,
+          id: 7,
+          quantity: 1
+        }, {
+          name: 'Электровелосипед Xiaomi HIMO C',
+          price: 34990,
+          image: 'electrobike2.jpg',
+          type: n,
+          id: 8,
+          quantity: 1
+        }, {
+          name: 'Моноколесо Airwheel Q1 170WH',
+          price: 26990,
+          image: 'monowheel2.jpg',
+          type: o,
+          id: 9,
+          quantity: 1
+        }, {
+          name: 'Электросаморкат',
+          price: 12990,
+          image: 'scooter.jpg',
+          type: 'scooters',
+          id: 10,
+          quantity: 1
+        }, {
+          name: 'Электровелосипед',
+          price: 16990,
+          image: 'electrocicle.jpg',
+          type: n,
+          id: 11,
+          quantity: 1
+        }, {
+          name: 'Гироскутер',
+          price: 16990,
+          image: 'jiroscooter.jpg',
+          type: e,
+          id: 12,
+          quantity: 1
+        }, {
+          name: 'Моноколесо',
+          price: 6990,
+          image: 'monowheel.jpg',
+          type: o,
+          id: 13,
+          quantity: 1
+        }, { name: 'Электроборд', price: 86990, image: 'board.jpg', type: a, id: 14, quantity: 1 }],
+        cart: [],
+        showCart: !1
+      }
+    },
+    serverRendered: !0,
+    routePath: '/',
+    config: { app: { basePath: '/scooter/', assetsPath: '/scooter/_nuxt/', cdnURL: t } }
+  }
+}('jiroscooter', 'defence', null, 'boards', 'bikes', 'monowheel')</script>
+<script src="./scooter/_nuxt/2328db9.js" defer></script>
+<script src="./scooter/_nuxt/20a2641.js" defer></script>
+<script src="./scooter/_nuxt/19bf3dd.js" defer></script>
+<script src="./scooter/_nuxt/f3b25d3.js" defer></script>
+</body>
+</html>
